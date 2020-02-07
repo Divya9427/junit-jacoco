@@ -17,9 +17,9 @@ pipeline {
             //archive "target/**/*"
          //   junit '/var/lib/jenkins/workspace/pipeline_multibranch_divya/target/surefire-reports/*.xml'
         // jacoco(
-               execPattern: 'target/*.exec',
-      classPattern: 'target/classes',
-      sourcePattern: 'src/main/java',
+         //      execPattern: 'target/*.exec',
+      //classPattern: 'target/classes',
+      //sourcePattern: 'src/main/java',
       //exclusionPattern: 'src/test*'
       //-DmaximumBranchCoverage: '70',
       //-DmaximumClassCoverage: '70',
