@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
 	<artifactId>MathOperations</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>Mathematical Operations</name>
 
 	<properties>
@@ -74,13 +74,13 @@
 	<distributionManagement>
 	<repository>
    <id>nexus</id>
-   <name>samplesnapshot</name>
-   <url>http://34.66.64.75:8081/repository/samplesnapshot/</url>
+   <name>release</name>
+   <url>http://34.66.64.75:8081/repository/release/</url>
       </repository>
       <snapshotRepository>
     <id>nexus</id>
-   <name>samplesnapshot</name>
-   <url>http://34.66.64.75:8081/repository/samplesnapshot/</url>
+   <name>release</name>
+   <url>http://34.66.64.75:8081/repository/release/</url>
 
   </snapshotRepository>
  </distributionManagement>
