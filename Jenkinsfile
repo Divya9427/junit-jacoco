@@ -38,6 +38,7 @@ pipeline {
         }
       }  
         }
+        }
         stage ('Testing Stage') {
             steps {
                 withMaven(maven : 'maven_3_5_0') {
@@ -102,7 +103,7 @@ pipeline {
                //changeBuildStatus: true,
     //minimumInstructionCoverage: '0', maximumInstructionCoverage: '100', minimumMethodCoverage: '0', maximumMethodCoverage: '100'
     //       )
-        }
-   } 
+   //     }
+  // } 
 
 }
