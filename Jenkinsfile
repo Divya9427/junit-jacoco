@@ -10,13 +10,13 @@ pipeline {
             }
         }
     }
-       post {
-       always {
+       //post {
+       //always {
             //archiveArtifacts artifacts: 'build/libs/**/*.jar', fingerprint: true
            //junit 'target/surefire-reports/*.xml'
             //archive "target/**/*"
          //   junit '/var/lib/jenkins/workspace/pipeline_multibranch_divya/target/surefire-reports/*.xml'
-         jacoco(
+        // jacoco(
                execPattern: 'target/*.exec',
       classPattern: 'target/classes',
       sourcePattern: 'src/main/java',
@@ -30,8 +30,8 @@ pipeline {
       //-DrunAlways: true
                //changeBuildStatus: true,
     //minimumInstructionCoverage: '0', maximumInstructionCoverage: '100', minimumMethodCoverage: '0', maximumMethodCoverage: '100'
-           )   
-       }
-       }
+       //    )   
+       //}
+      // }
         
 }
